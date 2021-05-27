@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: test
+    relative_path: urdf/BB8.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/BB8.srdf
+  CONFIG:
+    author_name: ro
+    author_email: ro@gmail.com
+    generated_timestamp: 1622033361

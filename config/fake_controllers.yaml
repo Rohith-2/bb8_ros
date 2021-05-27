@@ -1,0 +1,12 @@
+controller_list:
+  - name: fake_mov_controller
+    type: $(arg execution_type)
+    joints:
+      - vir
+      - Body
+      - Head
+initial:  # Define initial robot poses.
+#  - group: mov
+#    pose: home
+
+  []
